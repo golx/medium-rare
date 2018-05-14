@@ -1,0 +1,38 @@
+$brand-red: #cf583f;
+$brand-red-lighter: #ffaa99;
+
+.button {
+  border: 1px solid $brand-red-lighter;
+  font-size: 14px;
+  padding: 3px 5px;
+  border-radius: 3px;
+  text-decoration: none;
+
+  +.button {
+    margin-left: 5px;
+  }
+}
+
+.button-primary {
+  color: white;
+  border-color: $brand-red;
+  background-color: $brand-red;
+}
+
+.link {
+  color: $brand-red;
+  text-decoration: none;
+}
+
+.input {
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+  border-bottom: 2px solid lightgrey;
+}
+
+.form-item {
+  +.form-item {
+    margin-top: 10px;
+  }
+}

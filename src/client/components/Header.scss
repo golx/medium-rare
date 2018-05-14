@@ -1,0 +1,27 @@
+@import "../theme";
+
+.app-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px 15px;
+
+  border-bottom: 1px solid lightgrey;
+
+  .app-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .app-name {
+    color: $brand-red;
+    font-family: serif;
+    margin: 0;
+  }
+
+  .app-buttons {
+
+  }
+}
